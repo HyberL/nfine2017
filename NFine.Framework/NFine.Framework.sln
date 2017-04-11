@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Common 基础结构层", "01 Common 基础结构层", "{A461E23E-010A-41F0-B97E-B0C07EED69E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Domain 应用服务", "03 Domain 应用服务", "{75DE6A1D-1936-4DAF-A0CE-5B7E045ADFB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Web 应用程序", "04 Web 应用程序", "{88C0BCCC-424E-43D4-97C1-CB77B6BFC7B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NFine.Web", "NFine.Web\NFine.Web.csproj", "{2CC87A63-8FE8-485F-BB9A-20B8954C1197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC87A63-8FE8-485F-BB9A-20B8954C1197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC87A63-8FE8-485F-BB9A-20B8954C1197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC87A63-8FE8-485F-BB9A-20B8954C1197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC87A63-8FE8-485F-BB9A-20B8954C1197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CC87A63-8FE8-485F-BB9A-20B8954C1197} = {88C0BCCC-424E-43D4-97C1-CB77B6BFC7B7}
+	EndGlobalSection
+EndGlobal
